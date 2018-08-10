@@ -16,7 +16,7 @@ This component can be used in the following way inside your application:
 ```js
 <FetchTextBox url='https://www.thesportsdb.com/api/v1/json/1/searchplayers.php?p=' method='GET' jsonArrayKey='player' fieldName="strPlayer" sendData={getData.bind(this)} />
 ```
-  - In the above snippet, **`url`** is the URL of the Rest API which returns the data in the JSON format (must be a url that accepts querystrings as parameters as used in the example above **p** in the above url). An example response can be similar  to the following:
+  - In the above snippet, **`url`** is the URL of the Rest API which returns the data in the JSON format (must be a url that accepts querystrings as parameters as used in the example above, for instance, **p** in the above url). An example response can be similar  to the following:
 
       ```js
       {
