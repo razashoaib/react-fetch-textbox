@@ -1,0 +1,12 @@
+.inputArea {
+	display: inline-block;
+	width: 250px;
+	margin: 5 10 10 10;
+}
+
+.inputAreaBtn {
+	display: inline-block;
+	position: absolute;
+	width: 250px;
+	margin: 10px;
+}

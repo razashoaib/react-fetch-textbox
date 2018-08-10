@@ -1,0 +1,44 @@
+.loading-state {
+    background-color: #ffffff;
+    background-image: url("./ajax-loader.gif");
+    background-size: 25px 25px;
+    background-position:right center;
+    background-repeat: no-repeat;
+}
+
+#fetch-textbox {   
+    padding: 10px;
+    min-width: 100px;
+}
+
+#fetch-textbox::-ms-clear {
+    display: none;
+}
+
+.fetch-textbox-suggestions {
+  position: relative;
+  min-width: 50px;
+  margin-top: -3px;
+  max-height: 300px;
+  margin-bottom: 10px;
+  margin-left: 2px;
+  overflow-y:auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.hidden {
+  display: none;
+}
+
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+/* optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
