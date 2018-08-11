@@ -48,5 +48,8 @@ This component is developed to work with [Bootstrap v4](https://getbootstrap.com
   - **`fieldName`** is the key of JSON response's field you want to show as suggestions for the Textbox. `strPlayer` in the above example's case,
   - **`sendData`** is the name of the function where you want to get the data from the textbox. Example implementation can be found in `examples/src/index.js`.
   
-#### Example Usage
+### Example Usage
 The complete implementation can be seen in `examples/src/index.js`.
+
+## Contributing
+This project welcomes contributions and suggestions.
