@@ -1,6 +1,6 @@
 {
   "name": "react-fetch-textbox",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Textbox with suggestions using fetch API",
   "main": "dist/index.js",
   "scripts": {
@@ -16,11 +16,12 @@
   "keywords": [
     "react",
     "textbox",
-    "textbox",
     "suggestions",
     "fetch",
-    "textbox",
-    "react"
+    "react-fetch-textbox",
+    "react-textbox",
+    "textbox-react",
+    "autocomplete-textbox"
   ],
   "author": "Syed Abidi",
   "license": "ISC",
