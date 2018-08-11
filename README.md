@@ -44,7 +44,7 @@ This component is developed to work with [Bootstrap v4](https://getbootstrap.com
       }
       ```
   - **`method`** is the method of the request,
-  - **`jsonArrayKey`** is the key of the JSON response array. `player` in the above example's case,
+  - **`jsonArrayKey`** is the key of the JSON response array which you want to map with the textbox suggestions. `player` in the above example's case,
   - **`fieldName`** is the key of JSON response's field you want to show as suggestions for the Textbox. `strPlayer` in the above example's case,
   - **`sendData`** is the name of the function where you want to get the data from the textbox. Example implementation can be found in `examples/src/index.js`.
   
