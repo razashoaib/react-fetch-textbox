@@ -12,7 +12,8 @@ This Component can be used in any [React](https://reactjs.com) app, consuming a 
 `npm i react-fetch-textbox`
 
 ### Usage Guide
-This component can be used in the following way inside your application:
+This component is developed to work with [Bootstrap v4](https://getbootstrap.com/docs/4.0/getting-started/introduction/) and can be used in the following way inside your application:
+
 ```js
 <FetchTextBox url='https://www.thesportsdb.com/api/v1/json/1/searchplayers.php?p=' method='GET' jsonArrayKey='player' fieldName="strPlayer" sendData={getData.bind(this)} />
 ```
@@ -44,8 +45,8 @@ This component can be used in the following way inside your application:
       ```
   - **`method`** is the method of the request,
   - **`jsonArrayKey`** is the key of the JSON response array. `player` in the above example's case,
-  - **`fieldName`** is the key of JSON response's element you want to show as suggestions for the Textbox. `strPlayer` in the above example's case,
+  - **`fieldName`** is the key of JSON response's field you want to show as suggestions for the Textbox. `strPlayer` in the above example's case,
   - **`sendData`** is the name of the function where you want to get the data from the textbox. Example implementation can be found in `examples/src/index.js`.
   
 #### Example Usage
-The example implementation can be seen in `examples/src/index.js`.
+The complete implementation can be seen in `examples/src/index.js`.
